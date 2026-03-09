@@ -28,6 +28,7 @@ public class Estudante {
         return idade;
     }
         public String getNome() {
+            obterIdade(new Date());
             return this.nome;
         }
     
@@ -35,3 +36,4 @@ public class Estudante {
             this.nome = nome;
         }
 }
+
