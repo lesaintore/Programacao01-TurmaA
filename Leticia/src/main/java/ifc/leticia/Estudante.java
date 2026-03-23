@@ -14,8 +14,6 @@ import java.util.Scanner;
  */
 public class Estudante {
 
-    Scanner s = new Scanner(System.in);
-
     private String nomeCompleto;
     private Date dataNascimento;
     private String cpf;
@@ -35,7 +33,7 @@ public class Estudante {
         this.nomeCompleto = "Nobody";
     }
 
-    // GERAR MATRÍCULA (ano + semestre + 5 dígitos)
+    // GERAR MATRÍCULA (ano + semestre )
     public void gerarMatricula() {
         this.matricula = anoIngresso + "" + semestreIngresso;
     }
@@ -84,6 +82,5 @@ public class Estudante {
     public void setSituacaoAcademica(String situacaoAcademica) {
         this.situacaoAcademica = situacaoAcademica;
     }
-
 
 }
