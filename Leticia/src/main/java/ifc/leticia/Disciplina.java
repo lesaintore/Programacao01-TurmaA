@@ -9,77 +9,56 @@ package ifc.leticia;
  *
  * @author suporte
  */
-import java.util.Scanner;
-
+/*
+    Feito por VineC4rr91
+ */
 public class Disciplina {
+    private String codigoDisciplina;
+    private String nomeDisciplina;
+    private String cargaHoraria;
+    private String ementa;
+    private String objetivoAprendizagem;
+///////////////////////////////////////////
+    public Disciplina(){
+    }
 
+    public String getCodigoDisciplina() {
+        return codigoDisciplina;
+    }
 
-private String codigo;
-private String nome;
-private int cargaHoraria;
-private String ementa;
-private String objetivos;
-private String conteudoProgramatico;
-private String referenciasBibliograficas;
+    public void setCodigoDisciplina(String codigoDisciplina) {
+        this.codigoDisciplina = codigoDisciplina;
+    }
 
-public Disciplina() {
-this.nome = "Sem nome";
-}
+    public String getNomeDisciplina() {
+        return nomeDisciplina;
+    }
 
-// RECEBEDORES E LEVANTADORES
-public String getCodigo() {
-return codigo;
-}
+    public void setNomeDisciplina(String nomeDisciplina) {
+        this.nomeDisciplina = nomeDisciplina;
+    }
 
-public void setCodigo(String codigo) {
-this.codigo = codigo;
-}
+    public String getCargaHoraria() {
+        return cargaHoraria;
+    }
 
-public String getNome() {
-return nome;
-}
+    public void setCargaHoraria(String cargaHoraria) {
+        this.cargaHoraria = cargaHoraria;
+    }
 
-public void setNome(String nome) {
-this.nome = nome;
-}
+    public String getEmenta() {
+        return ementa;
+    }
 
-public int getCargaHoraria() {
-return cargaHoraria;
-}
+    public void setEmenta(String ementa) {
+        this.ementa = ementa;
+    }
 
-public void setCargaHoraria(int cargaHoraria) {
-this.cargaHoraria = cargaHoraria;
-}
+    public String getObjetivoAprendizagem() {
+        return objetivoAprendizagem;
+    }
 
-public String getEmenta() {
-return ementa;
-}
-
-public void setEmenta(String ementa) {
-this.ementa = ementa;
-}
-
-public String getObjetivos() {
-return objetivos;
-}
-
-public void setObjetivos(String objetivos) {
-this.objetivos = objetivos;
-}
-
-public String getConteudoProgramatico() {
-return conteudoProgramatico;
-}
-
-public void setConteudoProgramatico(String conteudoProgramatico) {
-this.conteudoProgramatico = conteudoProgramatico;
-}
-
-public String getReferenciasBibliograficas() {
-return referenciasBibliograficas;
-}
-
-public void setReferenciasBibliograficas(String referenciasBibliograficas) {
-this.referenciasBibliograficas = referenciasBibliograficas;
-}
-}
+    public void setObjetivoAprendizagem(String objetivoAprendizagem) {
+        this.objetivoAprendizagem = objetivoAprendizagem;
+    }
+}    
